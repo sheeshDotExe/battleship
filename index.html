@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battleship</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./game.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="centered-text">
+        <h1>Battleship</h1>
+      </div>
+    </header>
+    <main>
+      <div class="centered-text">
+        <h2 id="turn-display">Your turn!!</h2>
+      </div>
+      <div class="game-container">
+        <div class="player-side">
+          <p>Player board</p>
+          <div id="player-board" class="game-board"></div>
+        </div>
+        <div class="machine-side">
+          <p>Machine board</p>
+          <div id="machine-board" class="game-board"></div>
+        </div>
+      </div>
+      <div class="centered-text">
+        <h2 id="gameover-container"></h2>
+      </div>
+    </main>
+  </body>
+</html>
